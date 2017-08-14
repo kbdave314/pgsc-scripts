@@ -1,0 +1,11 @@
+#Not happy with this solution:
+DirectoryIndex index.en.php
+
+AuthType SSLCert
+ErrorDocument 401 /__scripts/needcerts
+Require valid-user 
+#Require user kdave # (for development)
+
+#appears not to work:
+#AddHandler type-map .var
+#Options +MultiViews

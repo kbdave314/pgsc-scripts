@@ -1,0 +1,8 @@
+Options +MultiViews
+#Options +FollowSymLinks
+#RewriteEngine On
+AuthType SSLCert
+Require afsgroup system:physics-gsc-signatory
+ErrorDocument 401 /__scripts/needcerts
+#$Redirect 301 ./keys http://physics-gsc.scripts.mit.edu/important/keys.php
+#RewriteRule ^important/keys https://physics-gsc.scripts.mit.edu:444/important/keys.php

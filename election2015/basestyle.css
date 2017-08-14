@@ -1,0 +1,169 @@
+@media screen{
+html {
+background-color: honeydew;
+font-size: smaller;
+}
+body {
+margin-left: 3%;
+margin-top: 3%;
+margin-right: 5%;
+margin-bottom: 2em;
+background-color: white;
+padding-bottom: 2em;
+padding-left: 3em;
+padding-top: 1em;
+padding-right: 2em;
+border: thin solid lightblue;
+}
+}
+@media print {
+html,body {
+background-color: white;
+}
+body {
+margin: 0.5in;
+font-size: smaller;
+}
+object[data="facebooklikewidget"] {
+display: none;
+}
+}
+@media handheld{
+html{
+font-size: larger;
+}
+#photobox{
+float: none;
+}
+}
+
+
+html {
+font-family: "Verdana", "Helvetica", sans-serif;
+}
+a {
+color: green;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:visited {
+color: purple;
+}
+
+a:active {
+color: crimson;
+}
+
+
+address {
+white-space: pre;
+}
+h1 * {
+text-align: left;
+color: darkblue;
+}
+h2 {
+color: darkslateblue;
+padding-left: 1ex;
+}
+h3 {
+  color: darkslateblue;
+  padding-left: 2.5ex;
+  font-style: italic;
+}
+p {
+padding-left: 3ex;
+margin: 0;
+padding-bottom: 0.5em;
+}
+
+.in, .out {
+margin-left: 5ex;
+padding-bottom: 1em;
+}
+.in code, .out code {
+display: block;
+margin-left: 2ex;
+}
+.in {
+border: thin solid green;
+background-color: lightgreen;
+}
+.out {
+border: thin solid blue;
+background-color: lightblue;
+}
+.in:before {
+content: attr(title);
+display: block;
+background-color: green;
+color: white;
+font-weight: bold;
+padding: 0.5ex;
+}
+.out:before {
+content: attr(title);
+display: block;
+background-color: blue;
+color: white;
+font-weight: bold;
+padding: 0.5ex;
+}
+
+.screenshot{
+width: 400px;
+border: medium solid black;
+margin: 3em;
+}
+
+.figure {
+display: block;
+text-align: center;
+font-size: 75%;
+font-style: italic;
+}
+#footer {
+clear: both;
+font-size: 75%;
+}
+table {
+margin-left: 7ex;
+padding: 1ex;
+border-top: medium solid black;
+border-bottom: medium solid black;
+margin-bottom: 3ex;
+}
+thead tr {
+font-weight: bold;
+border-bottom: thin solid black;
+}
+td {
+min-width: 15ex;
+padding-left: 1em;
+padding-right: 1em;
+}
+#submit {
+display: block;
+font-size: 1.1em;
+font-weight: bold;
+font-variant: small-caps;
+padding-left: 0.1ex 0.2ex;
+margin-left: 2em;
+color: white;
+background-color: darkslateblue;
+background: -webkit-linear-gradient(slateblue, darkslateblue);
+background: linear-gradient(slateblue, darkslateblue);
+border: 0 none;
+border-radius: 1ex;
+cursor: pointer;
+}
+#submit:hover, #submit:focus {
+background-color: mediumslateblue;
+background: -webkit-linear-gradient(mediumslateblue, slateblue);
+background: linear-gradient(mediumslateblue, slateblue);
+
+}
